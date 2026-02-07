@@ -167,6 +167,14 @@ footer {
   .contact-box p {
     font-size: 14px;
   }
+  /* MOBILE - GRID DE DISCIPLINAS */
+@media (max-width: 768px) {
+  .subjects-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 15px;
+  }
+}
+
 
 }
 
