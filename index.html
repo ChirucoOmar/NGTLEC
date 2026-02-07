@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextGen True Light Education Center</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Google Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- =============================
+ HEADER / NAVBAR
+ ============================= -->
+<header class="header">
+  <div class="logo">
+    <img src="images/logo.png" alt="NGTLEC Logo">
+  </div>
+
+  <nav class="nav" id="navMenu">
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#servicos">O Que Oferecemos</a>
+    <a href="#disciplinas">Disciplinas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- Hamburger Menu -->
+  <span class="material-icons menu-icon" onclick="toggleMenu()">menu</span>
+</header>
+
+<!-- =============================
+ BANNER / SLIDER
+ ============================= -->
+<section class="slider">
+  <img src="images/banner1.jpg" class="slide active">
+  <img src="images/banner2.jpg" class="slide">
+  <img src="images/banner3.jpg" class="slide">
+</section>
+
+<!-- =============================
+ BOAS-VINDAS
+ ============================= -->
+<section class="welcome" id="sobre">
+  <div class="welcome-text">
+    <h1>Bem-vindo à NextGen True Light</h1>
+    <p>
+      Preparamos a próxima geração de crianças, adolescentes e jovens para
+      estudar com autonomia, compreender a matéria e pesquisar de forma
+      independente.
+    </p>
+  </div>
+  <div class="welcome-image">
+    <img src="images/child.png" alt="Aluno com mochila">
+  </div>
+</section>
+
+<!-- =============================
+ MODALIDADES DE AULAS
+ ============================= -->
+<section class="modes" id="servicos">
+  <h2>Como Ajudamos os Alunos</h2>
+  <div class="modes-grid">
+    <div class="mode-card">Aulas Presenciais</div>
+    <div class="mode-card">Aulas Particulares</div>
+    <div class="mode-card">Aulas Online</div>
+  </div>
+</section>
+
+<!-- =============================
+ DISCIPLINAS
+ ============================= -->
+<section class="subjects" id="disciplinas">
+  <h2>Disciplinas</h2>
+
+  <!-- Ensino Primário -->
+  <h3>Ensino Primário (1ª - 6ª Classe)</h3>
+  <div class="subjects-grid" id="primary">
+    <div class="subject"><img src="images/portugues.png"><p>Português</p></div>
+    <div class="subject"><img src="images/matematica.png"><p>Matemática</p></div>
+    <div class="subject"><img src="images/ciencias.png"><p>Ciências</p></div>
+  </div>
+  <button onclick="showMore()" id="moreBtn">Ver mais disciplinas</button>
+
+  <!-- Secundário -->
+  <h3>Ensino Secundário</h3>
+  <div class="subjects-grid">
+    <div class="subject"><img src="images/matematica.png"><p>Matemática</p></div>
+    <div class="subject"><img src="images/fisica.png"><p>Física</p></div>
+    <div class="subject"><img src="images/quimica.png"><p>Química</p></div>
+  </div>
+
+  <!-- Exames -->
+  <h3>Exames de Admissão</h3>
+  <div class="subjects-grid">
+    <div class="subject"><img src="images/matematica.png"><p>Matemática</p></div>
+    <div class="subject"><img src="images/fisica.png"><p>Física</p></div>
+  </div>
+</section>
+
+<!-- =============================
+ CONTACTOS
+ ============================= -->
+<section class="contact" id="contacto">
+  <h2>Mais Informações</h2>
+  <div class="contact-box">
+    <p><span class="material-icons">call</span> +258 8XX XXX XXX</p>
+    <p><span class="material-icons">email</span> contacto@ngtlec.com</p>
+    <a href="https://wa.me/258XXXXXXXX" target="_blank" class="whatsapp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+      Falar no WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- =============================
+ FOOTER
+ ============================= -->
+<footer>
+  © 2026 NextGen True Light Education Center
+</footer>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+</body>
+</html>
+
