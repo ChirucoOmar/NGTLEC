@@ -6,10 +6,11 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 15px 30px;
   background: #ffffff;
+  gap: 20px;
 }
 
 .logo img { height: 50px; }
