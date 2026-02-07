@@ -19,3 +19,12 @@ function showMore() {
   `;
   document.getElementById('moreBtn').style.display = 'none';
 }
+// SLIDER BOAS-VINDAS
+let welcomeSlides = document.querySelectorAll('.welcome-slide');
+let welcomeIndex = 0;
+
+setInterval(() => {
+  welcomeSlides[welcomeIndex].classList.remove('active');
+  welcomeIndex = (welcomeIndex + 1) % welcomeSlides.length;
+  welcomeSlides[welcomeIndex].classList.add('active');
+}, 4000); // muda a cada 4 segundos

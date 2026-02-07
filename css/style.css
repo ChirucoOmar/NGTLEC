@@ -44,6 +44,25 @@ body {
 
 .welcome img { width: 100%; }
 
+/* BOAS-VINDAS - SLIDER DE IMAGENS */
+.welcome-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.welcome-image img {
+  width: 100%;
+  height: auto;
+  display: none; /* esconde todas inicialmente */
+  border-radius: 15px;
+}
+
+.welcome-image img.active {
+  display: block; /* só mostra a imagem ativa */
+}
+
+
 .modes {
   text-align: center;
   padding: 60px 20px;
