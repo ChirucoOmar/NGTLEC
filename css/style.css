@@ -105,6 +105,71 @@ footer {
 .whatsapp a:hover {
   text-decoration: underline;
 }
+/* ===========================
+   RESPONSIVIDADE - MOBILE
+   =========================== */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  .header {
+    padding: 10px 20px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #5a4fcf;
+    font-size: 32px;
+  }
+
+  .nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #ffffff;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav a {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  /* SLIDER */
+  .slider img {
+    height: 40vh;
+  }
+
+  /* WELCOME SECTION */
+  .welcome {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  /* MODES */
+  .modes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SUBJECTS */
+  .subjects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CONTACT */
+  .contact-box p {
+    font-size: 14px;
+  }
+
+}
+
 
 
 
