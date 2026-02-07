@@ -105,6 +105,27 @@ footer {
 .whatsapp a:hover {
   text-decoration: underline;
 }
+
+/* BOTÃO VER MAIS DISCIPLINAS */
+#moreBtn {
+  display: block;
+  margin: 20px auto; /* centraliza */
+  padding: 12px 25px;
+  background: #7b6cf6;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#moreBtn:hover {
+  background: #5a4fcf;
+  transform: scale(1.05);
+}
+
 /* ===========================
    RESPONSIVIDADE - MOBILE
    =========================== */
