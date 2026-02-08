@@ -206,7 +206,7 @@ footer {
    BOAS-VINDAS - SOMENTE TEXTO
    ============================= */
 .welcome-text-only {
-  background: #ffffff;
+  background: #f7f8fc;
   padding: 80px 20px;
   text-align: center;
   width: 100%;
@@ -215,7 +215,7 @@ footer {
 
 .welcome-text-only h1 {
   font-size: 42px;
-  color: #5a4fcf;
+  color:  #4f46c8;
   margin: 0 0 20px 0;
   line-height: 1.3;
 }
