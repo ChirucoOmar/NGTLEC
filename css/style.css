@@ -97,6 +97,10 @@ html, body {
 
 .subject img { width: 60px;
   margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
    }
 .subjects h2 {
   text-align: center;
