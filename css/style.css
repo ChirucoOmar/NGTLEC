@@ -221,6 +221,43 @@ footer {
   transform: scale(1.05);     /* leve aumento */
 }
 
+/* =============================
+   BOAS-VINDAS - SOMENTE TEXTO
+   ============================= */
+.welcome-text-only {
+  background: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.welcome-text-only h1 {
+  font-size: 42px;
+  color: #5a4fcf;
+  margin-bottom: 20px;
+}
+
+.welcome-text-only p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .welcome-text-only {
+    padding: 50px 20px;
+  }
+
+  .welcome-text-only h1 {
+    font-size: 28px;
+  }
+
+  .welcome-text-only p {
+    font-size: 16px;
+  }
+}
 
 
 /* =============================
