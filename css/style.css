@@ -228,30 +228,35 @@ footer {
   background: #ffffff;
   padding: 80px 20px;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .welcome-text-only h1 {
   font-size: 42px;
   color: #5a4fcf;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
+  line-height: 1.3;
 }
 
 .welcome-text-only p {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   font-size: 18px;
   line-height: 1.7;
   color: #333;
 }
 
-/* RESPONSIVO */
+/* =============================
+   RESPONSIVO
+   ============================= */
 @media (max-width: 768px) {
   .welcome-text-only {
-    padding: 50px 20px;
+    padding: 50px 16px;
   }
 
   .welcome-text-only h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .welcome-text-only p {
