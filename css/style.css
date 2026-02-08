@@ -175,7 +175,7 @@ footer {
    =========================== */
 @media(min-width: 1920px){
   .slider img {
-    height: 500px;
+    height: 600px;
   }
 }
 @media (max-width: 768px) {
@@ -242,7 +242,7 @@ footer {
 @media (max-width: 768px) {
   .subjects-grid {
     grid-template-columns: repeat(2, 1fr); /* 3 colunas */
-    gap: 15px;
+    gap: 10px;
   }
 }
 
