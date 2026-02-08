@@ -69,12 +69,16 @@ html, body {
 .subjects {
   padding: 60px 20px;
   background: #fff;
+  width: 100%;
+  overflow: hidden; /* impede fuga lateral */
 }
 
 .subjects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .subject {
@@ -84,6 +88,8 @@ html, body {
   text-align: center;
   box-shadow: 0 8px 20px rgba(0,0,0,0.06);
   transition: transform 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
 }
 .subject:hover {
   transform: translateY(-6px);
