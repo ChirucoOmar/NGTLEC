@@ -67,7 +67,7 @@ html, body {
 }
 
 .subjects {
-  padding: 60px 20px;
+  padding: 80px 20px;
   background: #fff;
   width: 100%;
   overflow: hidden; /* impede fuga lateral */
@@ -77,8 +77,9 @@ html, body {
   display: grid;
   grid-template-columns: repeat(3, minmax(0,1fr));
   gap: 20px;
-  width: 100%;
+  max-width: 1200px;
   box-sizing: border-box;
+  margin: 0 auto; 
 }
 
 .subject {
@@ -208,6 +209,7 @@ footer {
   /* SUBJECTS */
   .subjects-grid {
     grid-template-columns: 1fr 1fr;
+    padding: 0 15px;
   }
 
   /* CONTACT */
@@ -217,7 +219,7 @@ footer {
   /* MOBILE - GRID DE DISCIPLINAS */
 @media (max-width: 768px) {
   .subjects-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* 3 colunas */
+    grid-template-columns: repeat(2, 1fr); /* 3 colunas */
     gap: 15px;
   }
 }
