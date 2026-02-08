@@ -34,44 +34,6 @@ body {
 
 
 .slider img.active { display: block; } 
-/* =============================
-   BOAS-VINDAS - SOMENTE TEXTO
-   ============================= */
-.welcome-text-only {
-  background: #ffffff;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.welcome-text-only h1 {
-  font-size: 42px;
-  color: #5a4fcf;
-  margin-bottom: 20px;
-}
-
-.welcome-text-only p {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 18px;
-  line-height: 1.7;
-  color: #333;
-}
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .welcome-text-only {
-    padding: 50px 20px;
-  }
-
-  .welcome-text-only h1 {
-    font-size: 28px;
-  }
-
-  .welcome-text-only p {
-    font-size: 16px;
-  }
-}
-
 
 .welcome {
   display: grid;
@@ -98,84 +60,6 @@ body {
 
 .welcome-image img.active {
   display: block; /* só mostra a imagem ativa */
-}
-
-/* =============================
-   O QUE OFERECEMOS
-   ============================= */
-.offerings {
-  background: #f6f5ff;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.offerings h2 {
-  font-size: 36px;
-  color: #5a4fcf;
-  margin-bottom: 10px;
-}
-
-.offerings-subtitle {
-  max-width: 800px;
-  margin: 0 auto 50px;
-  font-size: 18px;
-  color: #444;
-  line-height: 1.6;
-}
-
-.offerings-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.offering-card {
-  background: #ffffff;
-  padding: 30px 20px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease;
-}
-
-.offering-card:hover {
-  transform: translateY(-8px);
-}
-
-.offering-card span {
-  font-size: 48px;
-  color: #7b6cf6;
-  margin-bottom: 15px;
-}
-
-.offering-card h3 {
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.offering-card p {
-  font-size: 15px;
-  color: #555;
-  line-height: 1.5;
-}
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .offerings {
-    padding: 60px 20px;
-  }
-
-  .offerings h2 {
-    font-size: 28px;
-  }
-
-  .offerings-subtitle {
-    font-size: 16px;
-  }
-
-  .offerings-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 
@@ -339,4 +223,81 @@ footer {
 
 
 
+/* =============================
+   O QUE OFERECEMOS
+   ============================= */
+.offerings {
+  background: #f6f5ff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.offerings h2 {
+  font-size: 36px;
+  color: #5a4fcf;
+  margin-bottom: 10px;
+}
+
+.offerings-subtitle {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.offerings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.offering-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.offering-card:hover {
+  transform: translateY(-8px);
+}
+
+.offering-card span {
+  font-size: 48px;
+  color: #7b6cf6;
+  margin-bottom: 15px;
+}
+
+.offering-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.offering-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .offerings {
+    padding: 60px 20px;
+  }
+
+  .offerings h2 {
+    font-size: 28px;
+  }
+
+  .offerings-subtitle {
+    font-size: 16px;
+  }
+
+  .offerings-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
