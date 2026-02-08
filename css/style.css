@@ -217,7 +217,7 @@ footer {
   /* MOBILE - GRID DE DISCIPLINAS */
 @media (max-width: 768px) {
   .subjects-grid {
-    grid-template-columns: repeat(2, 1fr); /* 3 colunas */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* 3 colunas */
     gap: 15px;
   }
 }
