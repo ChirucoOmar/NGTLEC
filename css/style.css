@@ -3,6 +3,10 @@ body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(180deg, #7b6cf6, #c2b9ff);
 }
+html, body {
+  overflow-x: hidden;
+}
+
 
 .header {
   display: flex;
@@ -88,6 +92,20 @@ body {
 .subject img { width: 60px;
   margin-bottom: 10px;
    }
+.subjects h2 {
+  text-align: center;
+  width: 100%;
+}
+.subjects h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #4f46c8;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
 .subject p {
   font-size: 15px;
   font-weight: 500;
