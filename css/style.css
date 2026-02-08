@@ -393,4 +393,20 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 480px) {
+  .subjects-grid {
+    grid-template-columns: repeat(3, 1fr); /* mantém 3 colunas */
+    gap: 10px;           /* reduz gap para caber na tela */
+    padding: 0 5px;      /* respiro lateral */
+  }
 
+  .subject {
+    padding: 8px;        /* reduz padding interno do card */
+    font-size: 14px;     /* opcional, deixa texto menor se precisar */
+  }
+
+  .subject img {
+    max-width: 100%;
+    height: auto;
+  }
+}
