@@ -393,3 +393,25 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 480px) {
+
+  .subjects {
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-x: hidden; /* trava qualquer fuga */
+  }
+
+  .subjects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .subject {
+    padding: 6px;
+    box-sizing: border-box;
+  }
+}
