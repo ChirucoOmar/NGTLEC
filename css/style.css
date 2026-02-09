@@ -393,25 +393,3 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 480px) {
-  .subjects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* mantém 3 colunas */
-    gap: 10px;                             /* espaço entre colunas */
-    padding: 0 10px;                        /* respiro lateral */
-    margin: 0 auto;                         /* centraliza o grid */
-    box-sizing: border-box;
-  }
-
-  .subject {
-    padding: 6px;       /* padding interno do card */
-    box-sizing: border-box;
-  }
-
-  .subject img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 5px;
-  }
-}
